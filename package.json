@@ -1,0 +1,21 @@
+{
+  "name": "progressBar",
+  "version": "1.0.3",
+  "description": "progress bar",
+  "license": "MIT",
+  "author": {
+    "name": "wangchunyang",
+    "email": "wangcylive@outlook.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wangcylive/progressBar.git"
+  },
+  "devDependencies": {
+    "gulp": "~3.9.0",
+    "gulp-concat": "~2.6.0",
+    "gulp-cssnano": "^2.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3"
+  }
+}
