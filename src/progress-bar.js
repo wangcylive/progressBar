@@ -205,7 +205,7 @@
                 if(transition) {
                     requestAnimationFrame(function () {
                         setTimeout(function() {
-                            elem.style[transform] = "translateX(0)";
+                            elem.style[transform] = "translateX(" + 0.01 * Math.random() + "px)";
                             elem.style[transition] = "all .3s ease-out";
                         }, 20);
                     });
